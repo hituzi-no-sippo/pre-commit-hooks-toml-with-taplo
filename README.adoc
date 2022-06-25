@@ -1,12 +1,26 @@
 = pre-commit-hooks-toml-with-taplo
 :author: hituzi no sippo
-:revnumber: v0.2.0
-:revdate: 2022-06-26T05:20:49+0900
-:revremark: Add MIT-0 license
+:revnumber: v0.3.0
+:revdate: 2022-06-26T06:07:22+0900
+:revremark: Add overview
 :description: README for {doctitle}
 :copyright: Copyright (c) 2022 {author}
 // Custom Attributes
 :creation_date: 2022-06-26T05:14:15+0900
+
+:pre_commit_url: https://pre-commit.com
+:taplo_url: https://taplo.tamasfe.dev
+link:{pre_commit_url}[pre-commit^] hooks for link:{taplo_url}[Taplo^]
+that is TOML formatter and linter.
+
+.Must Install Taplo
+[IMPORTANT]
+====
+You have to link:{taplo_url}/cli/installation/binary.html[
+install Taplo^] manually. +
+Because hook laguage is link:{pre_commit_url}#system[system^].
+It is not link:{pre_commit_url}#rust[Rust^].
+====
 
 '''
 
