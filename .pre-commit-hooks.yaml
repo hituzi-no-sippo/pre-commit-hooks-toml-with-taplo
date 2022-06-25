@@ -5,3 +5,10 @@
   entry: taplo format
   language: system
   types: [toml]
+
+- id: taplo-lint
+  name: lint TOML with Taplo
+  description: Lint TOML with Taplo
+  entry: taplo lint
+  language: system
+  types: [toml]

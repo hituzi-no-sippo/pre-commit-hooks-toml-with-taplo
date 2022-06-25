@@ -1,8 +1,8 @@
 = pre-commit-hooks-toml-with-taplo
 :author: hituzi no sippo
-:revnumber: v0.4.0
-:revdate: 2022-06-26T06:22:13+0900
-:revremark: Add usage
+:revnumber: v0.5.0
+:revdate: 2022-06-26T06:22:31+0900
+:revremark: Add lint hook
 :description: README for {doctitle}
 :copyright: Copyright (c) 2022 {author}
 // Custom Attributes
@@ -36,6 +36,7 @@ It is not link:{pre_commit_url}#rust[Rust^].
   rev: v1.0.0
   hooks:
     id: taplo-format
+    id: taplo-lint
 ----
 
 '''
