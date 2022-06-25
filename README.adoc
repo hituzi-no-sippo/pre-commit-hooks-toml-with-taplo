@@ -1,13 +1,17 @@
 = pre-commit-hooks-toml-with-taplo
 :author: hituzi no sippo
-:revnumber: v0.1.0
-:revdate: 2022-06-26T05:14:16+0900
-:revremark: Expand template
+:revnumber: v0.2.0
+:revdate: 2022-06-26T05:20:49+0900
+:revremark: Add MIT-0 license
 :description: README for {doctitle}
 :copyright: Copyright (c) 2022 {author}
 // Custom Attributes
 :creation_date: 2022-06-26T05:14:15+0900
 
 '''
+
+This project is available under the link:./LICENSE[MIT-0^] License. +
+link:https://choosealicense.com/licenses/mit-0/[
+Preservation of copyright and license notices is not required.^]
 
 Copyright (c) 2022 {author}
