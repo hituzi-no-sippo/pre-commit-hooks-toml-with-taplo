@@ -1,12 +1,17 @@
 = pre-commit-hooks-toml-with-taplo
 :author: hituzi no sippo
-:revnumber: v0.3.0
-:revdate: 2022-06-26T06:07:22+0900
-:revremark: Add overview
+:revnumber: v0.4.0
+:revdate: 2022-06-26T06:22:13+0900
+:revremark: Add usage
 :description: README for {doctitle}
 :copyright: Copyright (c) 2022 {author}
 // Custom Attributes
 :creation_date: 2022-06-26T05:14:15+0900
+:github_url: https://github.com
+:owner_name: hituzi-no-sippo
+:repository_name: {doctitle}
+:repository: {owner_name}/{repository_name}
+:repository_url: {github_url}/{repository}
 
 :pre_commit_url: https://pre-commit.com
 :taplo_url: https://taplo.tamasfe.dev
@@ -21,6 +26,17 @@ install Taplo^] manually. +
 Because hook laguage is link:{pre_commit_url}#system[system^].
 It is not link:{pre_commit_url}#rust[Rust^].
 ====
+
+== Usage
+
+.pre-commit-config.yaml
+[source, YAML, subs='+attributes']
+----
+- repo: {repository_url}
+  rev: v1.0.0
+  hooks:
+    id: taplo-format
+----
 
 '''
 

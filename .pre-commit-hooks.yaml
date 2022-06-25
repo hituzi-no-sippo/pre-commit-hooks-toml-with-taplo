@@ -1,0 +1,7 @@
+---
+- id: taplo-format
+  name: check TOML format with Taplo
+  description: Check TOML format with Taplo
+  entry: taplo format
+  language: system
+  types: [toml]
